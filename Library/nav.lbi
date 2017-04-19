@@ -1,0 +1,20 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<div class="dropdown">
+  <button class="dropbtn">+Projects</button>
+  <div class="dropdown-content">
+  	<a href="../recent.html">Recent</a>
+    <a href="../installation.html">Installation</a>
+    <a href="../video.html">Video</a>
+    <a href="../performance.html">Performance</a>
+    <a href="../otherwork.html">Other Work</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn"><a href="../statement.html"><font color="#FFFFFF">Statement</a></button>
+  </div>
+  <div class="dropdown">
+  <button class="dropbtn"><a href="../cv.html"><font color="#FFFFFF">CV</a></button></div>
+  <div class="dropdown">
+  <button class="dropbtn"><a href="../contact.html"><font color="#FFFFFF">Contact</a></button></div>

@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Norah Gunn</title>
+<link href="tempstyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="1000px" border="0" cellspacing="10" cellpadding="10" margin="auto">
+  <tr>
+    <td width="258" height="80"><div align="center"><div class="datnew"><!-- #BeginLibraryItem "/Library/logo.lbi" --><style type="text/css">
+a:hover {
+	text-decoration:none;
+	border:none;
+}
+</style>
+<a href="index.html"><img src="IMAGES/logo5.png" width="250" height="auto" alt="logo"></a><!-- #EndLibraryItem --></div></div>
+    <td width="672"><div align="right"><!-- #BeginLibraryItem "/Library/nav.lbi" -->
+
+<div class="dropdown">
+  <button class="dropbtn">+Projects</button>
+  <div class="dropdown-content">
+  	<a href="recent.html">Recent</a>
+    <a href="installation.html">Installation</a>
+    <a href="video.html">Video</a>
+    <a href="performance.html">Performance</a>
+    <a href="otherwork.html">Other Work</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn"><a href="statement.html"><font color="#FFFFFF">Statement</a></button>
+  </div>
+  <div class="dropdown">
+  <button class="dropbtn"><a href="cv.html"><font color="#FFFFFF">CV</a></button></div>
+  <div class="dropdown">
+  <button class="dropbtn"><a href="contact.html"><font color="#FFFFFF">Contact</a></button></div>
+<!-- #EndLibraryItem --></div></td>
+  </tr>
+  <tr>
+    <td height="415" colspan="2"><div align="center">
+
+
+<div class="slideshow-container">
+<div class="mySlides fade">
+    <img src="IMAGES/slideshow/slide1.jpg" align="center" style="width:800px">
+    <div class=".image">
+      <h2><span><font color="white">+PROJECTS / </font><a href="recent.html">RECENT</a></span></h2></div></div>
+ 
+
+<div class="mySlides fade">
+<img src="IMAGES/greenfull.jpg" align="center" style="width:800px"> <div class=".image"><h2><span><font color="white">+PROJECTS / </font><a href="installation.html">INSTALLATION</a></span></h2></div></div>
+
+  <div class="mySlides fade">
+    <img src="IMAGES/slideshow/slide2.png" align="center" style="width:800px">
+    <div class=".image"><h2><span>+PROJECTS / <a href="video.html">
+    VIDEO</a></span></h2></div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="IMAGES/slideshow/slide3.jpg" align="center" style="width:800px">
+    <div class=".image"><h2><span><font color="white">+PROJECTS / </font> <a href="performance.html">PERFORMANCE</a></span></h2></div>
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="IMAGES/slideshow/slide4.jpg" align="center" style="width:800px">
+    <div class=".image">
+      <h2><span><font color="white">+PROJECTS / </font> <a href="otherwork.html">OTHER WORK</a></span></h2></div></div>
+      
+    <div class="image"><h3><span><a class="prev" onclick="plusSlides(-1)" style="alignment-baseline:baseline">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a></span></h3></div>
+</div>    
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>      
+    
+    
+    
+    <script> 
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+    
+    
+    
+    </script>
+          </p>
+    </div></td>
+  </tr>
+  <tr>
+    <td colspan="2"><!-- #BeginLibraryItem "/Library/foot.lbi" --><div align="center"><strong>
+NORAH GUNN © 2017<!-- #EndLibraryItem --></td>
+  </tr>
+</table>
+</body>
+</html>
